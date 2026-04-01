@@ -4,13 +4,13 @@
 
 ## Demo
 
-![RotationBallView 演示动图](doc/demo.gif)
+![](https://raw.githubusercontent.com/zhangxiongwen/rotation_ball_view/refs/heads/main/doc/demo.gif)
 
 ## 安装
 
 ```yaml
 dependencies:
-  rotation_ball_view: ^0.1.0
+  rotation_ball_view: ^0.1.1
 ```
 
 ## 用法
@@ -84,12 +84,7 @@ class _BallPageState extends State<BallPage> {
 - **手势**：`Listener` 使用 `HitTestBehavior.translucent`，球面空白区域也可拖动旋转。
 - **条目**：内部用 `FittedBox` 将内容缩放到可用区域，避免布局溢出。
 
-## 发布到 pub
 
-1. 修改 `pubspec.yaml` 中的 `homepage` / `repository` 为你的真实地址。
-2. `dart pub publish --dry-run` 检查。
-3. `dart pub publish` 发布。
+## 参考库
 
-## License
-
-MIT（见 `LICENSE`）。
+https://github.com/rzrobert/RBallView

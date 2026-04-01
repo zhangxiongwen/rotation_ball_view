@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0+1
+## 0.1.1
+ - 完善readme文档
 
-- **Fix:** `isAnimate: false` 时停止空闲循环动画（此前 `AnimationController` 仍会 `forward` 并循环）。
 
 ## 0.1.0
 

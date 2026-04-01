@@ -2,10 +2,10 @@ name: rotation_ball_view
 description: >
   A Flutter widget that displays a rotating 3D ball of custom child widgets
   (Fibonacci sphere layout, depth scaling, opacity, drag-to-rotate, tap index callback).
-version: 0.1.0+1
-homepage: https://github.com/your-org/rotation_ball_view
-repository: https://github.com/your-org/rotation_ball_view
-issue_tracker: https://github.com/your-org/rotation_ball_view/issues
+version: 0.1.1
+homepage: https://github.com/zhangxiongwen/rotation_ball_view
+repository: https://github.com/zhangxiongwen/rotation_ball_view
+issue_tracker: https://github.com/zhangxiongwen/rotation_ball_view/issues
 license: MIT
 
 environment:
