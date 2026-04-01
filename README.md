@@ -4,8 +4,6 @@
 
 ## Demo
 
-动图放在与 `README.md` 同级的 **`doc/`** 目录下（例如 `doc/demo.gif`），便于和源码一起发布到 pub.dev。
-
 ![RotationBallView 演示动图](doc/demo.gif)
 
 ## 安装
