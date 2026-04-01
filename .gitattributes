@@ -1,0 +1,18 @@
+# 1. 把所有 .dart 文件强制标记为 Dart
+*.dart linguist-language=Dart linguist-detectable
+
+# 2. 把 C/C++ 相关文件排除统计（不让它们占语言比例）
+*.c linguist-vendored
+*.cc linguist-vendored
+*.cpp linguist-vendored
+*.cxx linguist-vendored
+*.h linguist-vendored
+*.hh linguist-vendored
+*.hpp linguist-vendored
+*.hxx linguist-vendored
+
+# 3. 可选：整个目录/第三方库也排除
+ios/** linguist-vendored
+android/** linguist-vendored
+build/** linguist-vendored
+.vscode/** linguist-vendored
